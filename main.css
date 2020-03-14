@@ -31,10 +31,11 @@
 .pc {
  padding-top: 100px;
  font-size: 20px; 
- line-height: 500%;
+ line-height: 200%;
 }
 .pc h1{
   font-size: 70px;
+  
 }
 .img1{
   background-image: url(pc5.jpg);
@@ -46,7 +47,7 @@
   font-family: cursive; 
   color: white;
   font-size: 30px;
-  line-height: 500%;
+  line-height: 250%;
 }
 .invited h1{
   font-size: 50px;
@@ -54,27 +55,27 @@
 }
 .wedding-detail{
  text-align: left;
-  font-size: 30px;
-  padding-top: 10px;
+ padding-left: 90px;
+  font-size: 15px;
+ 
 }
-.weddingtxt{
+.weddingTxt{
   font-size: 80px;
-  padding-top: 50px;
+  padding-top: 10px;
   font-family: fantasy;
 }
 .wedding-detail1{
   text-align: right;
-  font-size: 30px;
+  padding-right: 90px;
+  font-size: 15px;
 }
 .wedding-detail2{
   text-align: left;
-  font-size: 30px;
+  padding-left: 90px;
+  font-size: 15px;
 }
-.img2{
-  
-  height: 200px;
- font-size:100px;
-}
+
+
 #demo{
   text-align: center;
   font-size: 60px;
