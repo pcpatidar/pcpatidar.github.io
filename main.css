@@ -1,88 +1,166 @@
 
 
+.home{
+  background-image: url('pc3.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
 .header{
-  font-style: italic;
-  
-  border-bottom:1px solid ;
+  display: flex;
+  width: 100%;
+  border-bottom:1px solid rgb(199, 199, 199);
+  height: 70px;
   color: white;
-  padding-left: 20px;
-  padding-top: 20px;
+  justify-content: center;
 }
-.bgimage{
-  background: url(pc3.jpg);
-  background-repeat: no-repeat;
-  
- height: 100vh;
+.header h1{
+  font-size: 3.5rem;
 }
-.name{
-  font-size: 50px;
-  color: white;
-  font-family: fantasy;
- padding-top: 150px;
-}
-.date{
-  font-style: bold;
-  font-size: 50px;
-  color: white;
-
-}
-.img{
-  background-image: url(pc2.jpg);
-  height: 400px;
-}
-.pc {
- padding-top: 100px;
- font-size: 20px; 
- line-height: 200%;
-}
-.pc h1{
-  font-size: 70px;
-  
-}
-.img1{
-  background-image: url(pc5.jpg);
-  height: 400px;
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-.invited{
-  font-family: cursive; 
-  color: white;
-  font-size: 30px;
-  line-height: 250%;
-}
-.invited h1{
-  font-size: 50px;
-  padding-top: 50px;
-}
-.wedding-detail{
- text-align: left;
- padding-left: 90px;
-  font-size: 15px;
- 
-}
-.weddingTxt{
-  font-size: 80px;
-  padding-top: 10px;
-  font-family: fantasy;
-}
-.wedding-detail1{
-  text-align: right;
-  padding-right: 90px;
-  font-size: 15px;
-}
-.wedding-detail2{
-  text-align: left;
-  padding-left: 90px;
-  font-size: 15px;
-}
-
-
 #demo{
   text-align: center;
   font-size: 30px;
   margin-top: 0px;
   font-weight: bold;
   
+}
+.custom-Container{
+  width: 100%;
+}
+#date{
+  font-family: 'Brush Script MT' ;
+  color: white;
+  text-shadow: 0 0 7px black;
+}
+#wedCouple{
+  font-family: 'Brush Script MT';
+  color: white;
+}
+.col2{
+  width: 100%;
+  background-image: url('cards2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.col3{
+  width: 100%;
+  background-image: url('weddingStage1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.col4{
+  width: 100%;
+  /* background-image: url('invitCard.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 583px; */
+}
+.col5{
+  width: 100%;
+}
+.col5 img{
+  width: 100%;
+  max-height: 300px;
+}
+.col7{
+  width: 100%;
+  background-image: url('pc2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.divBlock
+{
+  margin: 0% 30%;
+  margin-bottom: 33px;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+.separator::before {
+  margin-right: .25em;
+}
+.separator::after {
+  margin-left: .25em;
+}
+
+.separator2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator2::before, .separator2::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid white;
+}
+.separator2::before {
+  margin-right: .25em;
+}
+.separator2::after {
+  margin-left: .25em;
+}
+
+.separator3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator3::before, .separator3::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid black;
+}
+.separator3::before {
+  margin-right: .25em;
+}
+.separator3::after {
+  margin-left: .25em;
+}
+.dot {
+  height: 120px;
+  width: 120px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: inline-block;
+  color: white;
+  margin: 0px 20px;
+}
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(241, 121, 91);
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid blue;
+}
+.detail{
+  box-shadow: 0 0 3px 0px black;
+  padding: 20px 0px;
+  margin: 6px;
+  border-radius: 20px;
+}
+.detail span p{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+
+
+@media (max-width:500px){
+
 }
 
