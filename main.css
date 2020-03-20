@@ -1,11 +1,11 @@
-.wedCouple{
+#wedCouple{
   text-shadow: 0 0 7px black;
   font-size: 30px;
 }
 
-.wedCouple, .header, .invitation, .dontMiss, .wedDetail, .contact, .wedBottom
+ #wedCouple, .header, .invitation, .dontMiss, .wedDetail, .contact, .wedBottom
 {
-  font-family: 'Brush Script MT' !important;
+  font-family: 'Apple Chancery', cursive !important;
 }
 .detail span h3{
   font-family: Georgia;
@@ -46,7 +46,6 @@
   text-shadow: 0 0 7px black;
 }
 #wedCouple{
-  font-family: 'Brush Script MT';
   color: white;
 }
 .col2{
@@ -140,14 +139,14 @@
   margin-left: .25em;
 }
 .dot {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   background-color: transparent;
   border-radius: 50%;
   border: 2px solid white;
   display: inline-block;
   color: white;
-  margin: 0px 20px;
+  margin: 0px 8px;
 }
 .dot2 {
   height: 15px;
