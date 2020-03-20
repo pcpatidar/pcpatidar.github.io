@@ -3,9 +3,10 @@
   font-size: 30px;
 }
 
- #wedCouple, .header, .invitation, .dontMiss, .wedDetail, .contact, .wedBottom
+ #wedCouple, #date, .header, .invitation, .dontMiss, .wedDetail, .contact, .wedBottom
 {
-  font-family: 'Apple Chancery', cursive !important;
+  font-family: cursive !important;
+  font-style: italic;
 }
 .detail span h3{
   font-family: Georgia;
@@ -41,7 +42,6 @@
   width: 100%;
 }
 #date{
-  font-family: 'Brush Script MT' ;
   color: white;
   text-shadow: 0 0 7px black;
 }
