@@ -1,4 +1,15 @@
+.wedCouple{
+  text-shadow: 0 0 7px black;
+  font-size: 30px;
+}
 
+.wedCouple, .header, .invitation, .dontMiss, .wedDetail, .contact, .wedBottom
+{
+  font-family: 'Brush Script MT' !important;
+}
+.detail span h3{
+  font-family: Georgia;
+}
 
 .home{
   background-image: url('pc3.jpg');
